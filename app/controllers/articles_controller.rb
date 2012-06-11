@@ -1,5 +1,5 @@
 class ArticlesController < ApplicationController
-  before_filter :authorise, only: [:new, :edit, :update]
+  # before_filter :authorise, only: [:new, :edit, :update]
   def index
     @articles = Article.all
 
